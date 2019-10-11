@@ -1,7 +1,8 @@
 // Author: Elohim Guevara
 // Date: October 10, 2019
 // patch name: vars_and_math.ck
-// description: 
+// description: Learning to play with variables
+// and doing math in patch.
 
 // Sound chain 
 TriOsc t => dac;
