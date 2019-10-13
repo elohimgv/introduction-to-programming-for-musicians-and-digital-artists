@@ -2,8 +2,8 @@
 // Date: October 12, 2019
 // patch name: working_with_dur.ck
 // description: playing with native data type 
-// 'dur' dur holds the current ChucK time which 
-// starts. at zero Is the length of time
+// 'dur'. The dur type holds a duration, which
+// is a length of time, the space between two times.
 
 // Sound sinal chain (network)
 SqrOsc s => dac;
