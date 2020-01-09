@@ -4,7 +4,7 @@ SinOsc vibrato => SawOsc viol => ADSR env => dac;
 // Tell the oscillator to interpret input as frequency modulation
 2 => viol.sync;
 // Set vibrato frequency to 6 Hz
-6.0 => vibrato.freq;
+//6.0 => vibrato.freq;
 // Set all ADSR parameters at once
 env.set(0.1::second, 0.1::second, 0.5, 0.1::second);
 // Define a D Major scale (in MIDI note numbers)
