@@ -30,7 +30,7 @@ while (true) {
 
 // Function to vary tuning over time
 function void detune() {
-    while () {
+    while (true) {
         // Update frequency sinusoidally
         84 + Math.sin(now/second*0.25*Math.PI) * 2 => Std.mtof => modal.freq;
         // Advance time (controls update rate)
